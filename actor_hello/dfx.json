@@ -3,19 +3,6 @@
     "actor_hello": {
       "main": "src/actor_hello/main.mo",
       "type": "motoko"
-    },
-    "actor_hello_assets": {
-      "dependencies": [
-        "actor_hello"
-      ],
-      "frontend": {
-        "entrypoint": "src/actor_hello_assets/src/index.html"
-      },
-      "source": [
-        "src/actor_hello_assets/assets",
-        "dist/actor_hello_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {
