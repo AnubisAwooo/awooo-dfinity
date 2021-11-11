@@ -1,21 +1,8 @@
 {
   "canisters": {
-    "location_hello": {
-      "main": "src/location_hello/main.mo",
+    "favorite_cities": {
+      "main": "src/favorite_cities/main.mo",
       "type": "motoko"
-    },
-    "location_hello_assets": {
-      "dependencies": [
-        "location_hello"
-      ],
-      "frontend": {
-        "entrypoint": "src/location_hello_assets/src/index.html"
-      },
-      "source": [
-        "src/location_hello_assets/assets",
-        "dist/location_hello_assets/"
-      ],
-      "type": "assets"
     }
   },
   "defaults": {

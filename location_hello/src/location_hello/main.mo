@@ -1,5 +1,5 @@
 actor {
-    public func greet(name : Text) : async Text {
-        return "Hello, " # name # "!";
-    };
+  public func location(city : Text) : async Text {
+    return "Hello, " # city # "!";
+  };
 };
